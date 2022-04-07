@@ -34,6 +34,7 @@ public class PlayerMovement : MonoBehaviour
         {
             Vector3 dir = transform.forward * ver + transform.right * hor;
             rb.MovePosition(transform.position + dir * speed * Time.deltaTime);
+            
         }
     }
 }
